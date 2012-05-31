@@ -8,7 +8,7 @@ using namespace std;
 
 int main(){
 
-	char c;
+	int c;
 	ofstream archivoS("datos.dat"); // Archivo de salida para los datos introducidos.
 	if(!archivoS){
 		cout << "Error al abrir el fichero datos.dat." << endl;
@@ -17,10 +17,10 @@ int main(){
 
 	cout << "Introduzca elementos tipo int para almacenarlos en datos.dat." << endl;
 	while((c = cin.get()) != EOF ){
-		if((c >= '0' && c <= '9') || (c == ' ')){
+		if((c >= '0' && c <= '9')){
 			archivoS.put(c);
 		}else{
-			cout << "Introduzca solo numeros, este elemento no se guardara." << endl;
+			archivoS.put(' ');
 		}
 	}
 	cout << endl;

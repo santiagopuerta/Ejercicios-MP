@@ -1,4 +1,4 @@
-all:	crea	bin/1	bin/2	bin/3	bin/4	bin/5	bin/6	bin/7	bin/8	bin/9
+all:	crea	bin/1	bin/2	bin/3	bin/4	bin/5	bin/6	bin/7	bin/8	bin/9	bin/10
 
 bin/1:	src/1.cpp
 	g++ src/1.cpp -o bin/1
@@ -27,6 +27,9 @@ bin/8:	src/8.cpp
 
 bin/9:	src/9.cpp
 	g++ src/9.cpp -o bin/9
+
+bin/10:	src/10.cpp
+	g++ src/10.cpp -o bin/10
 
 crea:
 	@mkdir -p bin obj lib

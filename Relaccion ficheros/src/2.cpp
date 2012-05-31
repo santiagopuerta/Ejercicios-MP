@@ -1,4 +1,4 @@
-// Ejercicio 1. Haz un programa que reciba como parámetro un fichero y que lo muestre en consola 
+// Ejercicio 2. Haz un programa que reciba como parámetro un fichero y que lo muestre en consola 
 // (de forma similar a como lo hace la orden cat de linux).
 // Santiago.
 
